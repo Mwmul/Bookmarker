@@ -86,6 +86,8 @@ let bookmarksController = ( UICtrl => {
 			}
 			//location.reload();
 			UICtrl.displayLinks();
+			UICtrl.getInput().url = '';
+			
 
 		},
 
