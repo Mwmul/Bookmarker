@@ -31,7 +31,7 @@ let UIController = ( _ => {
 				list.innerHTML += `
 					<div class="item">
 						<div class="content">
-							<img src="https://i.imgur.com/gtt274I.png">
+							<img src="https://png.icons8.com/metro/1600/bookmark.png">
 							<a target="blank" href="${x.url}"><p>${x.name}</p></a>
 						</div>
 						<button onclick="bookmarksController.removeItem('${x.url}')" ><i class="fas fa-trash-alt"></i></button>
