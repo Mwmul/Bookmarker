@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400')
+
+*
+	box-sizing: border-box
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+	font-weight: 300
+	color: white
+
+body
+	background: url('https://i.imgur.com/yI5AQM3.jpg')
+	background-size: cover
+	background-position: center
+	padding: 35px
+
+.container
+	min-height: 100vh
+	overflow: hidden
+	width: 100%
+	max-width: 450px
+	margin: auto
+	.UIController
+		width: 100%
+		background: white
+		border-radius: 5px
+		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
+		overflow: hidden
+		.dataInputs
+			input
+				border: none
+				padding: 25px 15px
+				border-bottom: solid 1px rgba(0,0,0,0.2)
+				width: 100%
+				color: black
+				font-size: 1em
+				&:focus
+					outline: none
+
+		button
+			float: right
+			margin: 10px
+			background: #162F3B
+			border: none
+			display: flex
+			align-items: center
+			padding: 2px 5px
+			font-weight: 500
+			border-radius: 3px
+			cursor: pointer
+			i
+				margin-left: 5px
+				font-size: 1em
+			&:focus
+				outline: none
+			&:active
+				transform: scale(0.95)
+	.listItems
+		width: 100%
+		overflow: hidden
+		margin-top: 30px
+		.item
+			display: flex
+			align-items: center
+			background: rgba(22, 47, 59, 0.8)
+			border-radius: 5px
+			margin-bottom: 10px
+			justify-content: space-between
+			padding: 10px
+			.content
+				display: flex
+				align-items: center
+				img
+					height: 100%
+					max-height: 100px
+					max-width: 150px
+			button
+				align-self: flex-start
+				background: none
+				border: none
+				cursor: pointer
+				&:hover
+					transform: scale(1.02)
+				&:active
+					transform: scale(0.98)
+				&:focus
+					outline: none
