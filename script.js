@@ -85,7 +85,8 @@ let bookmarksController = ( UICtrl => {
 				localStorage.setItem('bookmarks', JSON.stringify(bookmarks));	
 			}
 			//location.reload();
-			UICtrl.displayLinks();
+			UICtrl.displayLinks();	
+			UICtrl.getInput().url = '';
 
 		},
 
