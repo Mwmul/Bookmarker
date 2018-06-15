@@ -86,8 +86,7 @@ let bookmarksController = ( UICtrl => {
 			}
 			//location.reload();
 			UICtrl.displayLinks();	
-			UICtrl.getInput().url = '';
-
+			document.getElementById('URL').value = '';
 		},
 
 		removeItem: url => {
